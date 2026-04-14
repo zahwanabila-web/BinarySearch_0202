@@ -28,5 +28,21 @@ void input()
     for (int i = 0;1 < nPanjang; i++)
     {
         cout << "Data ke-" << (i + 1) << " = ";
+        cin >> element[i];
+    }
+}
+
+void bubbleSortarray()
+{
+    int pass = 1;
+    do
+    {
+        for (int j = 0; j <= nPanjang - 1 - pass; j++)
+        {
+            if (element[j] > element[j + 1])
+            {
+
+            }
+        }
     }
 }
