@@ -24,4 +24,9 @@ void input()
     cout << "\n======================================\n";
     cout << "        Masukkan Element Array        \n"; 
     cout << "\n======================================\n";
+
+    for (int i = 0;1 < nPanjang; i++)
+    {
+        cout << "Data ke-" << (i + 1) << " = ";
+    }
 }
